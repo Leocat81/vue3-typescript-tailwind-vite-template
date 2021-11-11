@@ -1,0 +1,24 @@
+{
+  "name": "vue3-tailwind-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "postcss-load-config": "^3.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.3",
+    "vite": "2.6.14",
+    "vue-tsc": "^0.3.0"
+  }
+}
